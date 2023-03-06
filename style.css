@@ -1,35 +1,40 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Playfair+Display:700&display=swap&subset=latin-ext');
 
 html {
-  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+  font-family: 'Open Sans Light', sans-serif;
   font-size: 15px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
 header,
 footer {
   text-align: center;
-  background-color: plum;
+  background-color: lavenderblush;
 }
 
 h1 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display Bold', serif;
   font-size: 60px;
   text-align: center;
 }
 
 h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display Bold', serif;
   font-size: 40px;
   text-align: justify;
 }
 
 .uvod,
 .menu {
-  background-color: antiquewhite;
+  background-color: pure white;
 }
 
 .uvod img {
   width: 32%;
-  border: 2px solid gray;
-  border-radius: 5px;
 }
