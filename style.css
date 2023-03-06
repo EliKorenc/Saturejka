@@ -11,20 +11,25 @@ footer {
   background-color: plum;
 }
 
-.uvod,
-.menu {
-  background-color: antiquewhite;
-}
-
 h1 {
   font-family: 'Playfair Display', serif;
   font-size: 60px;
   text-align: center;
 }
 
-
 h2 {
   font-family: 'Playfair Display', serif;
   font-size: 40px;
   text-align: justify;
+}
+
+.uvod,
+.menu {
+  background-color: antiquewhite;
+}
+
+.uvod img {
+  width: 32%;
+  border: 2px solid gray;
+  border-radius: 5px;
 }
