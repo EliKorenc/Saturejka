@@ -5,6 +5,12 @@ html {
   font-size: 15px;
 }
 
+header,
+footer {
+  text-align: center;
+  background-color: plum;
+}
+
 h1 {
   font-family: 'Playfair Display', serif;
   font-size: 60px;
