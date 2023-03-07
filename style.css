@@ -31,15 +31,11 @@ h2 {
 }
 
 main {
+  padding: 10vw;
+  margin: 10vw;
   background-color: pure white;
 }
 
 main img {
   width: 32 %;
-}
-
-main {
-  padding: 50px;
-  margin: 10px;
-  border: 2px white;
 }
