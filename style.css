@@ -7,13 +7,13 @@ html {
 }
 
 *,
-*: before,
+*:before,
 *:after {
   box-sizing: inherit;
 }
 
-.header,
-.footer {
+header,
+footer {
   text-align: center;
   background-color: lavenderblush;
 }
@@ -30,10 +30,16 @@ h2 {
   text-align: justify;
 }
 
-.mail {
+main {
   background-color: pure white;
 }
 
-.uvod img {
+main img {
   width: 32 %;
+}
+
+main {
+  padding: 50px;
+  margin: 10px;
+  border: 2px white;
 }
